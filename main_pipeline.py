@@ -24,8 +24,8 @@ pipeline_args = [
     '--project=strange-bird-142611',  # Change to your GCP project ID
     '--runner=DataflowRunner',
     '--region=us-central1',  # Adjust as per your GCP region
-    '--staging_location=gs://aekanun_workshop2/temp/staging/',  # Change to your bucket path
-    '--temp_location=gs://aekanun_workshop2/temp',  # Change to your bucket path
+    '--staging_location=gs://mybucket888/tmp/staging/',  # Change to your bucket path
+    '--temp_location=gs://mybucket888/tmp',  # Change to your bucket path
     '--streaming',
     '--setup_file=./setup.py',  # Point to your setup file
 ]
