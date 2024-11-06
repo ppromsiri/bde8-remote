@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 # Specify your BigQuery project ID and dataset.table name
 table_spec = (
     'strange-bird-142611:'
-    'my_workshop.my_dfsqltable_sales'
+    'strange-bird-142611.mybucket888'
 )
 
 # Define the schema for your BigQuery table
